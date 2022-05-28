@@ -8,11 +8,10 @@ function App() {
     <div className="App">
       <Intro/>
       <ConceptsArea/>
-      <Concept title='Array.map'/>
-      <Concept title='Array.map2'/>
-      <Concept title='Array.map7'/>
-      <Concept title='Array.map5'/>
-      <Concept title='Array.map11'/>
+      <Concept title='Array.map' link='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map'/>
+      <Concept title='Array.filter' link='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter'/>
+      <Concept title='Array.forEach' link='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/foreach'/>
+      <Concept title='Array.reduce' link='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce'/>
     </div>
   );
 }
