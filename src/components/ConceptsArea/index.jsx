@@ -25,16 +25,26 @@ const ConceptsArea = () => (
       <div className='concept-block'>
         <h3>Comuns</h3>
         <ul>
-          <li>Sintaxe de Espalhamento(Spread operator)</li>
-          <li>Parâmetros Rest</li>
+          <a href="#spread-operator">
+            <li>Sintaxe de Espalhamento(Spread operator)</li>
+          </a>
+          <a href="#rest-parameter">
+            <li>Parâmetros Rest</li>
+          </a>
         </ul>
       </div>
       <div className='concept-block'>
         <h3>Manipulação de objetos</h3>
         <ul>
-          <li>Acessando informações de objetos</li>
-          <li>Desestruturação</li>
-          <li><code>Object.keys()</code></li>
+          <a href="#working-with-objects">
+            <li>Trabalhando com objetos</li>
+          </a>
+          <a href="#destructuring">
+            <li>Atribuição via desestruturação</li>
+          </a>
+          <a href="#object-keys">
+            <li><code>Object.keys()</code></li>
+          </a>
         </ul>
       </div>
     </section>
