@@ -1,0 +1,17 @@
+.concepts-area {
+  background-color: gray;
+  
+  .concept-blocks-container {
+    display: flex;
+    justify-content: space-around;
+
+    .concept-block {
+      border: 3px solid green;
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+    }
+  }
+}
