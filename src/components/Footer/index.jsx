@@ -10,6 +10,7 @@ const Footer = () => (
       <a>twitter</a>
       <a>discord</a>
     </div>
+      <a>Source Code</a>
     <h4>Curtiu? me paga um cafezinho! Pix: f552a562-b73e-40f4-b8ce-6d8d6db242f1</h4>
   </div>
   );
