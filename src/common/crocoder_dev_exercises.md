@@ -39,7 +39,17 @@ Eleve ao quadrado o cada elemento presente na Array. Presuma que a array do _inp
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = [ 1, 2, 3, 4, 5 ];
+
+  input.map(function(num) {
+    return Math.pow(num, 2);
+  });
+
+  // sintaxe com Arrow function 
+  input.map(num => Math.pow(num, 2));
+  ```
 </details>
 
 ## Soma de todo elemento positivo
@@ -56,7 +66,22 @@ Crie uma função que, se o _input_ for um arrau de números, retorne a suma de 
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = [ 1, -4, 12, 0, -3, 29, -150];
+
+  input
+  .filter(function(num) {
+    return num > 0;
+  })
+  .reduce(function(accumulator, currentValue) {
+    return accumulator + currentValue;
+  }, 0);
+
+  // sintaxe com Arrow function 
+  input.filter(num => num > 0)
+  .reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+  ```
 </details>
 
 ## Calcular média e mediana 
@@ -76,7 +101,23 @@ Calcule a média e a mediana dos números presentes na array de _input_, retorne
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = [12, 46, 32, 64];
+  input.sort((a, b) => a - b);
+
+  input
+  .reduce((accumulator, currentValue, index, array) => {
+
+    accumulator.mean += currentValue /  array.length;
+
+    if(Math.abs(index + 1  - array.length / 2) < 1) { 
+      accumulator.median = currentValue 
+    }
+
+    return accumulator;
+  }, { media: 0, mediana: 0 });
+  ```
 </details>
 
 ## Obter iniciais dos nomes
@@ -94,7 +135,20 @@ Dado que o _input_ fornecido será uma string com múltiplas palavras separadas 
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = 'George Raymond Richard Martin';
+
+  input
+  .split(' ')
+  .map(function(word) {
+    return word[0];
+  })
+  .join('');
+
+  // or written with Arrow function 
+  input.split(' ').map(word => word[0]).join('');
+  ```
 </details>
 
 ## Diferença de idade entre o mais novo e o mais velho
@@ -132,7 +186,35 @@ Encontre a diferença de idade entre o mais velho e o mais novo membro da famíl
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = [
+    {
+      name: 'John',
+      age: 13
+    },
+    {
+      name: 'Mark',
+      age: 56,
+    },
+    {
+      name: 'Rachel',
+      age: 45,
+    },
+    {
+      name: 'Nate',
+      age: 67,
+    },
+    {
+      name: 'Jeniffer',
+      age: 65,
+    }
+  ];
+
+  const ages = input.map(person => person.age);
+
+  [Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)];
+  ```
 </details>
 
 ## "Numerônimos"
@@ -150,7 +232,29 @@ Desenvovedores gostam de abreviar tudo: k8s significa Kubernetes, a11y significa
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = 'Every developer likes to mix kubernetes and javascript';
+
+  const createNumeronym = (word) => word[0] + (word.length - 2) +  word[word.length - 1];
+
+  input
+  .split(' ')
+  .map(function(word) {
+    if(word.length >= 4) {
+      return createNumeronym(word);
+    }
+    return word;
+  })
+  .join(' ');
+
+
+  // sintaxe com Arrow function e ternário
+  input
+  .split(' ')
+  .map(word => word.length >= 4 ? createNumeronym(word) : word)
+  .join(' ')
+  ```
 </details>
 
 ## n! com `Map` e `Reduce`
@@ -195,7 +299,28 @@ Conte as ocorrências de elementos distintos na array bidimensional. O _input_ d
 
 <details>
   <summary>Solução (clique para exibir)</summary>
-  Texto de resolução do problema a ser inserido posteriormente.
+  
+  ```
+  const input = 6;
+
+  const array = new Array(input).fill(null);
+  // valor de array, neste momento, é [null, null, null, null, null, null]
+
+  array
+  .map(function(currentValue, index) {
+    return index + 1;
+  })
+  .reduce(function(accumulator, currentValue) {
+    return accumulator * currentValue;
+  });
+
+
+  // sintaxe com Arrow function
+  new Array(input)
+  .fill(null)
+  .map((currentValue, index) => index + 1)
+  .reduce((accumulator, currentValue) => accumulator * currentValue);
+  ```
 </details>
 
 ---
