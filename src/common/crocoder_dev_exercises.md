@@ -14,6 +14,17 @@ Você pode utilizar 'for loops aninhados' para resolver a maioria dos problemas 
 Eu gostaria de provar a você que, ao utilizar os métodos **Map, Filter, Reduce**, não somente tornará o código mais legível, mas você estará, também, apto a melhor analisar o problema e escrever o código com facilidade.
 
 ## Exercícios
+- [Array ao quadrado](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#array-ao-quadrado)
+- [Soma de todo elemento positivo](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#soma-de-todo-elemento-positivo)
+- [Calcular média e mediana](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#calcular-m%C3%A9dia-e-mediana)
+- [Obter iniciais dos nomes](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#obter-iniciais-dos-nomes)
+- [Diferença de idade entre o mais novo e o mais velho](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#diferen%C3%A7a-de-idade-entre-o-mais-novo-e-o-mais-velho)
+- ["Numerônimos"](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#numer%C3%B4nimos)
+- [n! com `Map` e `Reduce`](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#n-com-map-e-reduce)
+- [Conte os elementos em uma array de arrays](https://github.com/laurolyra/concepts-before-react/blob/main/src/common/crocoder_dev_exercises.md#conte-os-elementos-em-uma-array-de-arrays)
+
+---
+
 
 ## Array ao quadrado
 Eleve ao quadrado o cada elemento presente na Array. Presuma que a array do _input_ será composta somente de números.
@@ -31,7 +42,7 @@ Eleve ao quadrado o cada elemento presente na Array. Presuma que a array do _inp
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
-## Soma de toddo elemento positivo
+## Soma de todo elemento positivo
 
 Crie uma função que, se o _input_ for um arrau de números, retorne a suma de todos os números positivos. Se a array for vazia ou se não existem números positivos, retorne 0.
 
