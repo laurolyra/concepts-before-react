@@ -37,7 +37,7 @@ Crie uma função que, se o _input_ for um arrau de números, retorne a suma de 
 
 ### Links úteis
 - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">Array.prototype.filter()</a>
-- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="_blank">Array.prototype.filter()</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" target="_blank">Array.prototype.reduce()</a>
 ### Input
 `const input = [ 1, -4, 12, 0, -3, 29, -150];`
 ### Resultado esperado
