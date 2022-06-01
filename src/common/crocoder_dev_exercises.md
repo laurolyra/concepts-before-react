@@ -14,7 +14,7 @@ Você pode utilizar 'for loops aninhados' para resolver a maioria dos problemas 
 Eu gostaria de provar a você que, ao utilizar os métodos **Map, Filter, Reduce**, não somente tornará o código mais legível, mas você estará, também, apto a melhor analisar o problema e escrever o código com facilidade.
 
 ## Exercícios
----
+
 ## Array ao quadrado
 Eleve ao quadrado o cada elemento presente na Array. Presuma que a array do _input_ será composta somente de números.
 ### Links úteis
@@ -30,8 +30,6 @@ Eleve ao quadrado o cada elemento presente na Array. Presuma que a array do _inp
   <summary>Solução (clique para exibir)</summary>
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
-
----
 
 ## Soma de toddo elemento positivo
 
@@ -50,8 +48,7 @@ Crie uma função que, se o _input_ for um arrau de números, retorne a suma de 
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
-## Calcular mediana e 
+## Calcular média e mediana 
 
 Calcule a média e a mediana dos números presentes na array de _input_, retorne-as como um objeto com as chaves `media` e `mediana`.
 
@@ -71,7 +68,6 @@ Calcule a média e a mediana dos números presentes na array de _input_, retorne
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
 ## Obter iniciais dos nomes
 
 Dado que o _input_ fornecido será uma string com múltiplas palavras separadas por um espaço entre cada uma delas. Abrevie os nomes e retorne as iniciais dos nomes.
@@ -90,7 +86,6 @@ Dado que o _input_ fornecido será uma string com múltiplas palavras separadas 
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
 ## Diferença de idade entre o mais novo e o mais velho
 
 Encontre a diferença de idade entre o mais velho e o mais novo membro da família, retorne suas respectivas idades e a diferença de idade.
@@ -129,7 +124,6 @@ Encontre a diferença de idade entre o mais velho e o mais novo membro da famíl
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
 ## "Numerônimos"
 
 Desenvovedores gostam de abreviar tudo: k8s significa Kubernetes, a11y significa acessibilidade, l10n significa localização. Você obterá o numerônimo exibindo a primeira e a última letra da palavra e contando o número de letras entre essas duas. Palavras que possuam menos de 4 letras não serão abreviadas, porque soaria muito estranho. O _input_ será uma frase, e você deverá abreviar todas as palavras que tiverem 4 ou mais letras. Não haverá pontuação nas frases. g2d l2k e6e
@@ -148,7 +142,6 @@ Desenvovedores gostam de abreviar tudo: k8s significa Kubernetes, a11y significa
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
 ## n! com `Map` e `Reduce`
 
 Se o _input_ dado for um número, você deve retornar o fatorial daquele número. O fatorial de um número natural `n` é o produto dos números inteiros positivos menores ou iguais a `n`. Então, `2! = 2`, `3! = 6`, `4! = 24` e assim por diante.
@@ -166,7 +159,6 @@ Se o _input_ dado for um número, você deve retornar o fatorial daquele número
   Texto de resolução do problema a ser inserido posteriormente.
 </details>
 
----
 ## Conte os elementos em uma array de arrays
 
 Conte as ocorrências de elementos distintos na array bidimensional. O _input_ dado será uma array, e seus elementos serão arrays de strings. O resultado será um objeto cujo nome das propriedades serão os valores dos arrays e o número de suas ocorrências.
